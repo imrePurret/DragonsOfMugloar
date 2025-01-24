@@ -23,7 +23,7 @@ public class StartupRunner implements CommandLineRunner {
     private int trainingGames;
 
     @Override
-    public void run(String... args) throws Exception {
+    public void run(String... args) {
         if (trainingGames > 0) {
             logger.info("Training mode enabled. Running {} training games.", trainingGames);
             trainingModeService.runTraining(trainingGames);

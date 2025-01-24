@@ -38,7 +38,7 @@ class StartupRunnerTest {
     }
 
     @Test
-    void testRun_withTrainingModeEnabled() throws Exception {
+    void testRun_withTrainingModeEnabled(){
         doNothing().when(trainingModeService).runTraining(anyInt());
         ReflectionTestUtils.setField(startupRunner, "trainingGames", 5);
         startupRunner.run();
@@ -47,7 +47,7 @@ class StartupRunnerTest {
     }
 
     @Test
-    void testRun_withTrainingModeDisabled() throws Exception {
+    void testRun_withTrainingModeDisabled(){
         ReflectionTestUtils.setField(startupRunner, "trainingGames", 0);
         startupRunner.run();
         verify(trainingModeService, never()).runTraining(0);
