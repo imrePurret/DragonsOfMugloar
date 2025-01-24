@@ -36,3 +36,5 @@ Several enhancements could be made to the system, including:
 - Enhancing the training process by incorporating additional fields and conducting deeper analyses.
 - Introducing more advanced logic based on the current analysis to further improve results.
 - Replacing database success rate query with hardcoded mapper, as these seem to be pretty concrete.
+- More advanced analysis on shopping purchase logic.
+- Adding investigation steps while tasks doesn't exceed some limit.
