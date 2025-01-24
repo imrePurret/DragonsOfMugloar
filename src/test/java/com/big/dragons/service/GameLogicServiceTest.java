@@ -151,7 +151,7 @@ class GameLogicServiceTest {
         verify(shopService, times(1)).fetchShopItems(any());
         verify(gameService, times(1)).updateGameState((PurchaseResponse) any());
     }
-    
+
     @Test
     void testLogCurrentStatus() {
         when(gameService.getLives()).thenReturn(3);

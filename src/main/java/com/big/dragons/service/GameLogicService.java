@@ -75,7 +75,7 @@ public class GameLogicService {
                 .toList();
     }
 
-    // Data analysis
+    // Data analysis - outlier
     private List<Task> filterDiamondTasks(List<Task> tasks) {
         return tasks.stream()
                 .filter(task -> !task.getMessage().contains("Steal super awesome diamond"))
