@@ -32,7 +32,7 @@ To start the application, run:
 mvn spring-boot:run
 ```
 
-## Running with Docker
+### Running with Docker
 
 You can run the application using Docker:
 
