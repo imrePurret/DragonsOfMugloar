@@ -32,6 +32,16 @@ To start the application, run:
 mvn spring-boot:run
 ```
 
+## Running with Docker
+
+You can run the application using Docker:
+
+1. **Build the Docker Image**:
+```bash
+docker build -t dragons-of-mugloar .
+docker run -p 8080:8080 dragons-of-mugloar
+```
+
 ### Tests
 To run the tests:
 
