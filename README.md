@@ -36,7 +36,7 @@ mvn spring-boot:run
 
 You can run the application using Docker:
 
-1. **Build the Docker Image**:
+1. **Build the Docker Image and run**:
 ```bash
 docker build -t dragons-of-mugloar .
 docker run -p 8080:8080 dragons-of-mugloar
