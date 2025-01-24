@@ -111,7 +111,7 @@ public class TrainingModeService {
         gameService.updateGameState(purchaseResponse);
 
         if (purchaseResponse.isShoppingSuccess()) {
-            logger.debug("Successfully purchased random item: {}", randomItem.getName());
+            logger.info("Successfully purchased random item: {}", randomItem.getName());
         } else {
             logger.warn("Failed to purchase random item: {}", randomItem.getName());
         }
