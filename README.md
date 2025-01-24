@@ -6,7 +6,7 @@ DragonsOfMugloar is a Java-based implementation of the "Dragons of Mugloar" chal
 
 ## Getting Started
 
-### Prerequisites
+### Using
 
 - Java 21
 - Maven
@@ -39,22 +39,8 @@ To run the tests:
 mvn test
 ```
 
-### Dependencies
-This project uses the following key dependencies:
-
-- Spring Boot: For building the application.
-- Lombok: To simplify the code and avoid boilerplate.
-- JUnit: For testing the components.
-
-Other dependencies include:
-
-- Spring Data JPA: For managing data persistence.
-- Maven: For project build and dependency management.
-
-You can see the full list in the pom.xml file.
-
 ### H2 Database
-The project uses an H2 database for data storage during local development and testing. This allows quick and easy setup without external dependencies. The database is configured in the application and is automatically initialized during application startup.
+The project uses an H2 database for data storage. The database is configured in the application and is automatically initialized during application startup.
 
 ### Training
 The project also includes functionality for training/data gathering purposes, designed to optimize certain performance aspects based on the challenge requirements. This training part allows the application to run various simulations and assess the results based on the provided task history.
